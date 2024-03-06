@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:meditation_app/pages/dashboard.dart';
 import 'package:meditation_app/widgets/rectangle_button.dart';
 import '../utils/utils.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+import 'package:meditation_app/mantra.dart';
+import 'package:meditation_app/pages/mantraListPage.dart';
+
 
 class Home extends StatelessWidget {
   const Home({
@@ -20,7 +25,7 @@ class Home extends StatelessWidget {
             children: [
               Image.asset("assets/images/meditation.png"),
               const Text(
-                "Time to meditate",
+                "Time to DivyaJapa",
                 style: kLargeTextStyle,
                 textAlign: TextAlign.center,
               ),
@@ -36,11 +41,14 @@ class Home extends StatelessWidget {
                 height: 50,
               ),
               RectangleButton(
-                onPressed: () => Navigator.push(
+                onPressed: () =>
+                    Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (context) => const Dashboard(),
-                    )),
+                     // builder: (context) =>  MantraListPage(deityName: 'Shiva'),
+
+                    ),),
                 child: const Text(
                   "Let's get started",
                   style: kButtonTextStyle,

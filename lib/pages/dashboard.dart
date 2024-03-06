@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app/pages/mantraListPage.dart';
 import 'package:meditation_app/pages/songboard.dart';
 import '../widgets/meditation_card.dart';
 import '../utils/utils.dart';
@@ -46,19 +47,20 @@ class Dashboard extends StatelessWidget {
                   crossAxisSpacing: 30,
                   children: [
                     MeditationCard(
-                      title: kMeditateTitle,
+                      title: kGaneshTitle,
                       description: kMeditateSubtitle,
                       image: kMeditateImageSource,
                       onPressed: () {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const SongBoard(
-                              musicName: kMeditateTitle,
-                              imageSource: kMeditateImageSource,
-                              musicSource: kMeditateMusicSource,
+                            // builder: (context) => const SongBoard(
+                            //   musicName: kMeditateTitle,
+                            //   imageSource: kMeditateImageSource,
+                            //   musicSource: kMeditateMusicSource,
+                            // ),
+                            builder: (context) => MantraListPage(deityName: 'Ganesh')
                             ),
-                          ),
                         );
                       },
                     ),
@@ -70,12 +72,8 @@ class Dashboard extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const SongBoard(
-                              musicName: kRelaxTitle,
-                              imageSource: kRelaxImageSource,
-                              musicSource: kRelaxMusicSource,
-                            ),
-                          ),
+                            builder: (context) =>  MantraListPage(deityName: 'Shiva')
+                        ),
                         );
                       },
                     ),

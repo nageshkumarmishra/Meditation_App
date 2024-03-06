@@ -1,0 +1,28 @@
+ {
+  "mantras": [
+    {
+      "title": "Ganesh Maha Mantra",
+      "sanskrit": "ॐ गं गणपतये नमः",
+      "transliteration": "Om Gam Ganapataye Namaha",
+      "translation": "Salutations to Lord Ganesha, who is the remover of obstacles and the lord of beginnings."
+    },
+    {
+      "title": "Ganesh Gayatri Mantra",
+      "sanskrit": "ॐ एकदन्ताय विद्धमहे, वक्रतुण्डाय धीमहि, तन्नो दन्ति प्रचोदयात्",
+      "transliteration": "Om Ekadantaya Viddhamahe, Vakratundaya Dhimahi, Tanno Danti Prachodayat",
+      "translation": "We meditate upon the single-tusked Lord Ganesha, may he inspire and enlighten us."
+    },
+    {
+      "title": "Ganesha Shubh Labh Mantra",
+      "sanskrit": "ॐ श्रीं गम सौभाग्य गणपतये वरवरद सर्वजन्म में वशमानय स्वाहा",
+      "transliteration": "Om Shreem Gam Saubhagya Ganpataye Varvarda Sarvajanma Mein Vashamanya Swaha",
+      "translation": "We invoke the one with the single tusked elephant tooth to bring us good fortune and to attract all good things towards us."
+    },
+    {
+      "title": "Ganapati Invocation",
+      "sanskrit": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥",
+      "transliteration": "Vakratunda Mahakaya Suryakoti Samaprabha. Nirvighnam Kuru Me Deva Sarvakaryeshu Sarvada.",
+      "translation": "O lord with the curved trunk and mighty body, who has the magnificence of a million suns, I pray to you to remove the obstacles from all the actions I intend to perform."
+    }
+  ]
+}

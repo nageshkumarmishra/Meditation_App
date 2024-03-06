@@ -1,9 +1,9 @@
-const kMeditateTitle = 'Meditate';
-const kMeditateSubtitle = 'Breath';
-const kMeditateImageSource = 'meditation.png';
+const kGaneshTitle = 'Ganesh';
+const kMeditateSubtitle = 'Mantra';
+const kMeditateImageSource = 'ganesh.png';
 const kMeditateMusicSource = 'meditation.mp3';
 
-const kRelaxTitle = 'Relax';
+const kRelaxTitle = 'Shiva';
 const kRelaxSubtitle = 'Read book';
 const kRelaxImageSource = 'relax.png';
 const kRelaxMusicSource = 'relax.mp3';
